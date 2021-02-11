@@ -8,15 +8,14 @@ public class LoginPage {
 
 	
 	WebDriver driver;
-	
+
+	//This is new commit from local repository
 	public LoginPage(WebDriver lDriver) {
 	
 		this.driver = lDriver ; 
 		
 		
 	}
-	
-	
 	
 	@FindBy(id = "txtUsername") WebElement uName;
 	@FindBy(id = "txtPassword") WebElement pWord;
